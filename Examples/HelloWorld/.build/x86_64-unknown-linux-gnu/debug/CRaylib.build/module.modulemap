@@ -1,0 +1,4 @@
+module CRaylib {
+    umbrella "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/CRaylib/include"
+    export *
+}

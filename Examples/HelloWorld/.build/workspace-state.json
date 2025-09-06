@@ -1,0 +1,27 @@
+{
+  "object" : {
+    "artifacts" : [
+
+    ],
+    "dependencies" : [
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "raylib-swift",
+          "kind" : "fileSystem",
+          "location" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift",
+          "name" : "raylib-swift"
+        },
+        "state" : {
+          "name" : "fileSystem",
+          "path" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift"
+        },
+        "subpath" : "raylib-swift"
+      }
+    ],
+    "prebuilts" : [
+
+    ]
+  },
+  "version" : 7
+}

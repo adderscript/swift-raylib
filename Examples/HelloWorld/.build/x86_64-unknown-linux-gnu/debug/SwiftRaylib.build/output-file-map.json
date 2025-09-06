@@ -1,0 +1,35 @@
+{
+  "": {
+    "swift-dependencies": "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/SwiftRaylib.build/master.swiftdeps"
+  },
+  "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/SwiftRaylib/Color.swift": {
+    "dependencies": "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/SwiftRaylib.build/Color.d",
+    "object": "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/SwiftRaylib.build/Color.swift.o",
+    "swiftmodule": "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/SwiftRaylib.build/Color~partial.swiftmodule",
+    "swift-dependencies": "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/SwiftRaylib.build/Color.swiftdeps"
+  },
+  "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/SwiftRaylib/Key.swift": {
+    "dependencies": "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/SwiftRaylib.build/Key.d",
+    "object": "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/SwiftRaylib.build/Key.swift.o",
+    "swiftmodule": "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/SwiftRaylib.build/Key~partial.swiftmodule",
+    "swift-dependencies": "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/SwiftRaylib.build/Key.swiftdeps"
+  },
+  "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/SwiftRaylib/Raylib.swift": {
+    "dependencies": "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/SwiftRaylib.build/Raylib.d",
+    "object": "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/SwiftRaylib.build/Raylib.swift.o",
+    "swiftmodule": "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/SwiftRaylib.build/Raylib~partial.swiftmodule",
+    "swift-dependencies": "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/SwiftRaylib.build/Raylib.swiftdeps"
+  },
+  "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/SwiftRaylib/Vector2.swift": {
+    "dependencies": "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/SwiftRaylib.build/Vector2.d",
+    "object": "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/SwiftRaylib.build/Vector2.swift.o",
+    "swiftmodule": "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/SwiftRaylib.build/Vector2~partial.swiftmodule",
+    "swift-dependencies": "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/SwiftRaylib.build/Vector2.swiftdeps"
+  },
+  "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/SwiftRaylib/Window.swift": {
+    "dependencies": "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/SwiftRaylib.build/Window.d",
+    "object": "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/SwiftRaylib.build/Window.swift.o",
+    "swiftmodule": "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/SwiftRaylib.build/Window~partial.swiftmodule",
+    "swift-dependencies": "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/SwiftRaylib.build/Window.swiftdeps"
+  }
+}

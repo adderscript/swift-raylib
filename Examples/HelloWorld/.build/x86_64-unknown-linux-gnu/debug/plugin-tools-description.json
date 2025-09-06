@@ -1,0 +1,428 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.HelloWorld-x86_64-unknown-linux-gnu-debug.module" : {
+      "executable" : "/usr/lib/swift/bin/swiftc",
+      "fileList" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/HelloWorld.build/sources",
+      "importPath" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/Sources/main.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/swift-version-5BD8B568FD16BF8B.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/Modules/SwiftRaylib.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/HelloWorld.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "HelloWorld",
+      "moduleOutputPath" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/Modules/HelloWorld.swiftmodule",
+      "objects" : [
+        "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/HelloWorld.build/main.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-unknown-linux-gnu",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j12",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-Xcc",
+        "-fmodule-map-file=/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/CRaylib/module.modulemap",
+        "-module-cache-path",
+        "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "HelloWorld_main",
+        "-swift-version",
+        "5",
+        "-g",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "helloworld",
+        "-Xcc",
+        "-fno-omit-frame-pointer"
+      ],
+      "outputFileMapPath" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/HelloWorld.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/HelloWorld.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/Modules/HelloWorld.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/Sources/main.swift"
+      ],
+      "tempsPath" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/HelloWorld.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.SwiftRaylib-x86_64-unknown-linux-gnu-debug.module" : {
+      "executable" : "/usr/lib/swift/bin/swiftc",
+      "fileList" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/SwiftRaylib.build/sources",
+      "importPath" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/SwiftRaylib/Color.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/SwiftRaylib/Key.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/SwiftRaylib/Raylib.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/SwiftRaylib/Vector2.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/SwiftRaylib/Window.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/swift-version-5BD8B568FD16BF8B.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/SwiftRaylib.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "SwiftRaylib",
+      "moduleOutputPath" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/Modules/SwiftRaylib.swiftmodule",
+      "objects" : [
+        "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/SwiftRaylib.build/Color.swift.o",
+        "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/SwiftRaylib.build/Key.swift.o",
+        "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/SwiftRaylib.build/Raylib.swift.o",
+        "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/SwiftRaylib.build/Vector2.swift.o",
+        "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/SwiftRaylib.build/Window.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-unknown-linux-gnu",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j12",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-Xcc",
+        "-fmodule-map-file=/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/CRaylib/module.modulemap",
+        "-module-cache-path",
+        "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-swift-version",
+        "5",
+        "-Xcc",
+        "-I/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/CRaylib/include",
+        "-g",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "raylib_swift",
+        "-Xcc",
+        "-fno-omit-frame-pointer"
+      ],
+      "outputFileMapPath" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/SwiftRaylib.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/SwiftRaylib.build/Color.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/SwiftRaylib.build/Key.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/SwiftRaylib.build/Raylib.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/SwiftRaylib.build/Vector2.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/SwiftRaylib.build/Window.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/Modules/SwiftRaylib.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/SwiftRaylib/Color.swift",
+        "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/SwiftRaylib/Key.swift",
+        "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/SwiftRaylib/Raylib.swift",
+        "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/SwiftRaylib/Vector2.swift",
+        "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/SwiftRaylib/Window.swift"
+      ],
+      "tempsPath" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/SwiftRaylib.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "HelloWorld" : [
+      "/usr/lib/swift/bin/swiftc",
+      "-module-name",
+      "HelloWorld",
+      "-package-name",
+      "helloworld",
+      "-incremental",
+      "-c",
+      "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/Sources/main.swift",
+      "-I",
+      "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/Modules",
+      "-target",
+      "x86_64-unknown-linux-gnu",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j12",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-Xcc",
+      "-fmodule-map-file=/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/CRaylib/module.modulemap",
+      "-module-cache-path",
+      "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "HelloWorld_main",
+      "-swift-version",
+      "5",
+      "-g",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "helloworld",
+      "-Xcc",
+      "-fno-omit-frame-pointer",
+      "-driver-use-frontend-path",
+      "/usr/lib/swift/bin/swiftc"
+    ],
+    "SwiftRaylib" : [
+      "/usr/lib/swift/bin/swiftc",
+      "-module-name",
+      "SwiftRaylib",
+      "-package-name",
+      "raylib_swift",
+      "-incremental",
+      "-c",
+      "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/SwiftRaylib/Color.swift",
+      "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/SwiftRaylib/Key.swift",
+      "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/SwiftRaylib/Raylib.swift",
+      "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/SwiftRaylib/Vector2.swift",
+      "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/SwiftRaylib/Window.swift",
+      "-I",
+      "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/Modules",
+      "-target",
+      "x86_64-unknown-linux-gnu",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j12",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-Xcc",
+      "-fmodule-map-file=/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/CRaylib/module.modulemap",
+      "-module-cache-path",
+      "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-swift-version",
+      "5",
+      "-Xcc",
+      "-I/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/CRaylib/include",
+      "-g",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "raylib_swift",
+      "-Xcc",
+      "-fno-omit-frame-pointer",
+      "-driver-use-frontend-path",
+      "/usr/lib/swift/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "HelloWorld" : [
+      "SwiftRaylib",
+      "CRaylib"
+    ],
+    "SwiftRaylib" : [
+      "CRaylib"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "traitConfiguration" : {
+    "enableAllTraits" : false
+  },
+  "writeCommands" : {
+    "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/HelloWorld.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/Sources/main.swift"
+        }
+      ],
+      "outputFilePath" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/HelloWorld.build/sources"
+    },
+    "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/HelloWorld.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/HelloWorld.build/HelloWorld.swiftmodule.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/HelloWorld.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/SwiftRaylib.build/Color.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/SwiftRaylib.build/Key.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/SwiftRaylib.build/Raylib.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/SwiftRaylib.build/SwiftRaylib.swiftmodule.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/SwiftRaylib.build/Vector2.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/SwiftRaylib.build/Window.swift.o"
+        }
+      ],
+      "outputFilePath" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/HelloWorld.product/Objects.LinkFileList"
+    },
+    "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/SwiftRaylib.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/SwiftRaylib/Color.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/SwiftRaylib/Key.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/SwiftRaylib/Raylib.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/SwiftRaylib/Vector2.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/SwiftRaylib/Window.swift"
+        }
+      ],
+      "outputFilePath" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/SwiftRaylib.build/sources"
+    },
+    "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/swift-version-5BD8B568FD16BF8B.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/usr/lib/swift/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/swift-version-5BD8B568FD16BF8B.txt"
+    }
+  }
+}

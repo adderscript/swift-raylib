@@ -1,0 +1,5 @@
+module CRaylib [system] {
+    header "include/shim.h"
+    export *
+}
+

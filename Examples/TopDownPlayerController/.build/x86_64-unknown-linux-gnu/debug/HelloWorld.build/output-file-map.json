@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/TopDownPlayerController/.build/x86_64-unknown-linux-gnu/debug/HelloWorld.build/master.swiftdeps"
+  },
+  "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/TopDownPlayerController/Sources/Player.swift": {
+    "dependencies": "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/TopDownPlayerController/.build/x86_64-unknown-linux-gnu/debug/HelloWorld.build/Player.d",
+    "object": "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/TopDownPlayerController/.build/x86_64-unknown-linux-gnu/debug/HelloWorld.build/Player.swift.o",
+    "swiftmodule": "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/TopDownPlayerController/.build/x86_64-unknown-linux-gnu/debug/HelloWorld.build/Player~partial.swiftmodule",
+    "swift-dependencies": "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/TopDownPlayerController/.build/x86_64-unknown-linux-gnu/debug/HelloWorld.build/Player.swiftdeps"
+  },
+  "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/TopDownPlayerController/Sources/main.swift": {
+    "dependencies": "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/TopDownPlayerController/.build/x86_64-unknown-linux-gnu/debug/HelloWorld.build/main.d",
+    "object": "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/TopDownPlayerController/.build/x86_64-unknown-linux-gnu/debug/HelloWorld.build/main.swift.o",
+    "swiftmodule": "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/TopDownPlayerController/.build/x86_64-unknown-linux-gnu/debug/HelloWorld.build/main~partial.swiftmodule",
+    "swift-dependencies": "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/TopDownPlayerController/.build/x86_64-unknown-linux-gnu/debug/HelloWorld.build/main.swiftdeps"
+  }
+}

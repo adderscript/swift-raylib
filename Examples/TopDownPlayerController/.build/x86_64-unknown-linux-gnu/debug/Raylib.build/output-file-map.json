@@ -1,0 +1,29 @@
+{
+  "": {
+    "swift-dependencies": "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/TopDownPlayerController/.build/x86_64-unknown-linux-gnu/debug/Raylib.build/master.swiftdeps"
+  },
+  "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/Raylib/Color.swift": {
+    "dependencies": "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/TopDownPlayerController/.build/x86_64-unknown-linux-gnu/debug/Raylib.build/Color.d",
+    "object": "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/TopDownPlayerController/.build/x86_64-unknown-linux-gnu/debug/Raylib.build/Color.swift.o",
+    "swiftmodule": "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/TopDownPlayerController/.build/x86_64-unknown-linux-gnu/debug/Raylib.build/Color~partial.swiftmodule",
+    "swift-dependencies": "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/TopDownPlayerController/.build/x86_64-unknown-linux-gnu/debug/Raylib.build/Color.swiftdeps"
+  },
+  "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/Raylib/Key.swift": {
+    "dependencies": "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/TopDownPlayerController/.build/x86_64-unknown-linux-gnu/debug/Raylib.build/Key.d",
+    "object": "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/TopDownPlayerController/.build/x86_64-unknown-linux-gnu/debug/Raylib.build/Key.swift.o",
+    "swiftmodule": "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/TopDownPlayerController/.build/x86_64-unknown-linux-gnu/debug/Raylib.build/Key~partial.swiftmodule",
+    "swift-dependencies": "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/TopDownPlayerController/.build/x86_64-unknown-linux-gnu/debug/Raylib.build/Key.swiftdeps"
+  },
+  "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/Raylib/Raylib.swift": {
+    "dependencies": "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/TopDownPlayerController/.build/x86_64-unknown-linux-gnu/debug/Raylib.build/Raylib.d",
+    "object": "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/TopDownPlayerController/.build/x86_64-unknown-linux-gnu/debug/Raylib.build/Raylib.swift.o",
+    "swiftmodule": "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/TopDownPlayerController/.build/x86_64-unknown-linux-gnu/debug/Raylib.build/Raylib~partial.swiftmodule",
+    "swift-dependencies": "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/TopDownPlayerController/.build/x86_64-unknown-linux-gnu/debug/Raylib.build/Raylib.swiftdeps"
+  },
+  "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/Raylib/Vector2.swift": {
+    "dependencies": "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/TopDownPlayerController/.build/x86_64-unknown-linux-gnu/debug/Raylib.build/Vector2.d",
+    "object": "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/TopDownPlayerController/.build/x86_64-unknown-linux-gnu/debug/Raylib.build/Vector2.swift.o",
+    "swiftmodule": "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/TopDownPlayerController/.build/x86_64-unknown-linux-gnu/debug/Raylib.build/Vector2~partial.swiftmodule",
+    "swift-dependencies": "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/TopDownPlayerController/.build/x86_64-unknown-linux-gnu/debug/Raylib.build/Vector2.swiftdeps"
+  }
+}
