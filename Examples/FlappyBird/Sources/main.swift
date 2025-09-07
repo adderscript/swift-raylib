@@ -1,11 +1,11 @@
-import Foundation
 import Raylib
 
 Raylib.initWindow(1280, 720, "Flappy Bird")
 Raylib.setTargetFPS(60)
 
-var player = Player(Vector2(150.0, 160.0))
 var pipeManager = PipeManager()
+let playerStartPos = Vector2(150.0, 360.0)
+var player = Player(playerStartPos)
 
 while !Raylib.windowShouldClose() {
     let dt: Float = Raylib.getFrameTime()
@@ -18,11 +18,23 @@ while !Raylib.windowShouldClose() {
 }
 
 func update(_ dt: Float) {
-    player.update(dt)
     pipeManager.update(dt)
+    player.update(dt, pipeManager)
+
+    if player.dead {
+        resetGame()
+    }
 }
 
 func draw() {
-    player.draw()
     pipeManager.draw()
+    player.draw()
+}
+
+func resetGame() {
+    player.position = playerStartPos
+    player.yVelocity = 0.0
+    player.dead = false
+
+    pipeManager.pipes.removeAll()
 }

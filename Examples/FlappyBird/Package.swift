@@ -11,7 +11,7 @@ let package = Package(
     ],
     targets: [
         .executableTarget(
-            name: "HelloWorld",
+            name: "FlappyBird",
             dependencies: [
                 .product(name: "Raylib", package: "raylib-swift")
             ],

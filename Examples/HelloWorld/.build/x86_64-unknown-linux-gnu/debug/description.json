@@ -32,7 +32,7 @@
         },
         {
           "kind" : "file",
-          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/Modules/SwiftRaylib.swiftmodule"
+          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/Modules/Raylib.swiftmodule"
         },
         {
           "kind" : "file",
@@ -95,30 +95,26 @@
       "tempsPath" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/HelloWorld.build",
       "wholeModuleOptimization" : false
     },
-    "C.SwiftRaylib-x86_64-unknown-linux-gnu-debug.module" : {
+    "C.Raylib-x86_64-unknown-linux-gnu-debug.module" : {
       "executable" : "/usr/lib/swift/bin/swiftc",
-      "fileList" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/SwiftRaylib.build/sources",
+      "fileList" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/Raylib.build/sources",
       "importPath" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/Modules",
       "inputs" : [
         {
           "kind" : "file",
-          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/SwiftRaylib/Color.swift"
+          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/Raylib/Color.swift"
         },
         {
           "kind" : "file",
-          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/SwiftRaylib/Key.swift"
+          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/Raylib/Key.swift"
         },
         {
           "kind" : "file",
-          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/SwiftRaylib/Raylib.swift"
+          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/Raylib/Raylib.swift"
         },
         {
           "kind" : "file",
-          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/SwiftRaylib/Vector2.swift"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/SwiftRaylib/Window.swift"
+          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/Raylib/Vector2.swift"
         },
         {
           "kind" : "file",
@@ -126,18 +122,17 @@
         },
         {
           "kind" : "file",
-          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/SwiftRaylib.build/sources"
+          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/Raylib.build/sources"
         }
       ],
       "isLibrary" : true,
-      "moduleName" : "SwiftRaylib",
-      "moduleOutputPath" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/Modules/SwiftRaylib.swiftmodule",
+      "moduleName" : "Raylib",
+      "moduleOutputPath" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/Modules/Raylib.swiftmodule",
       "objects" : [
-        "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/SwiftRaylib.build/Color.swift.o",
-        "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/SwiftRaylib.build/Key.swift.o",
-        "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/SwiftRaylib.build/Raylib.swift.o",
-        "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/SwiftRaylib.build/Vector2.swift.o",
-        "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/SwiftRaylib.build/Window.swift.o"
+        "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/Raylib.build/Color.swift.o",
+        "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/Raylib.build/Key.swift.o",
+        "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/Raylib.build/Raylib.swift.o",
+        "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/Raylib.build/Vector2.swift.o"
       ],
       "otherArguments" : [
         "-target",
@@ -170,42 +165,37 @@
         "-Xcc",
         "-fno-omit-frame-pointer"
       ],
-      "outputFileMapPath" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/SwiftRaylib.build/output-file-map.json",
+      "outputFileMapPath" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/Raylib.build/output-file-map.json",
       "outputs" : [
         {
           "kind" : "file",
-          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/SwiftRaylib.build/Color.swift.o"
+          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/Raylib.build/Color.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/SwiftRaylib.build/Key.swift.o"
+          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/Raylib.build/Key.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/SwiftRaylib.build/Raylib.swift.o"
+          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/Raylib.build/Raylib.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/SwiftRaylib.build/Vector2.swift.o"
+          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/Raylib.build/Vector2.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/SwiftRaylib.build/Window.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/Modules/SwiftRaylib.swiftmodule"
+          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/Modules/Raylib.swiftmodule"
         }
       ],
       "prepareForIndexing" : false,
       "sources" : [
-        "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/SwiftRaylib/Color.swift",
-        "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/SwiftRaylib/Key.swift",
-        "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/SwiftRaylib/Raylib.swift",
-        "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/SwiftRaylib/Vector2.swift",
-        "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/SwiftRaylib/Window.swift"
+        "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/Raylib/Color.swift",
+        "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/Raylib/Key.swift",
+        "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/Raylib/Raylib.swift",
+        "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/Raylib/Vector2.swift"
       ],
-      "tempsPath" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/SwiftRaylib.build",
+      "tempsPath" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/Raylib.build",
       "wholeModuleOptimization" : false
     }
   },
@@ -257,19 +247,18 @@
       "-driver-use-frontend-path",
       "/usr/lib/swift/bin/swiftc"
     ],
-    "SwiftRaylib" : [
+    "Raylib" : [
       "/usr/lib/swift/bin/swiftc",
       "-module-name",
-      "SwiftRaylib",
+      "Raylib",
       "-package-name",
       "raylib_swift",
       "-incremental",
       "-c",
-      "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/SwiftRaylib/Color.swift",
-      "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/SwiftRaylib/Key.swift",
-      "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/SwiftRaylib/Raylib.swift",
-      "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/SwiftRaylib/Vector2.swift",
-      "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/SwiftRaylib/Window.swift",
+      "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/Raylib/Color.swift",
+      "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/Raylib/Key.swift",
+      "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/Raylib/Raylib.swift",
+      "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/Raylib/Vector2.swift",
       "-I",
       "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/Modules",
       "-target",
@@ -307,10 +296,10 @@
   },
   "targetDependencyMap" : {
     "HelloWorld" : [
-      "SwiftRaylib",
+      "Raylib",
       "CRaylib"
     ],
-    "SwiftRaylib" : [
+    "Raylib" : [
       "CRaylib"
     ]
   },
@@ -355,32 +344,28 @@
         },
         {
           "kind" : "file",
-          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/SwiftRaylib.build/Color.swift.o"
+          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/Raylib.build/Color.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/SwiftRaylib.build/Key.swift.o"
+          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/Raylib.build/Key.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/SwiftRaylib.build/Raylib.swift.o"
+          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/Raylib.build/Raylib.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/SwiftRaylib.build/SwiftRaylib.swiftmodule.o"
+          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/Raylib.build/Raylib.swiftmodule.o"
         },
         {
           "kind" : "file",
-          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/SwiftRaylib.build/Vector2.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/SwiftRaylib.build/Window.swift.o"
+          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/Raylib.build/Vector2.swift.o"
         }
       ],
       "outputFilePath" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/HelloWorld.product/Objects.LinkFileList"
     },
-    "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/SwiftRaylib.build/sources" : {
+    "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/Raylib.build/sources" : {
       "alwaysOutOfDate" : false,
       "inputs" : [
         {
@@ -389,26 +374,22 @@
         },
         {
           "kind" : "file",
-          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/SwiftRaylib/Color.swift"
+          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/Raylib/Color.swift"
         },
         {
           "kind" : "file",
-          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/SwiftRaylib/Key.swift"
+          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/Raylib/Key.swift"
         },
         {
           "kind" : "file",
-          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/SwiftRaylib/Raylib.swift"
+          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/Raylib/Raylib.swift"
         },
         {
           "kind" : "file",
-          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/SwiftRaylib/Vector2.swift"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/SwiftRaylib/Window.swift"
+          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/Raylib/Vector2.swift"
         }
       ],
-      "outputFilePath" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/SwiftRaylib.build/sources"
+      "outputFilePath" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/Raylib.build/sources"
     },
     "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/HelloWorld/.build/x86_64-unknown-linux-gnu/debug/swift-version-5BD8B568FD16BF8B.txt" : {
       "alwaysOutOfDate" : true,

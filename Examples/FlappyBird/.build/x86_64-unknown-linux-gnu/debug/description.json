@@ -17,9 +17,9 @@
 
   ],
   "swiftCommands" : {
-    "C.HelloWorld-x86_64-unknown-linux-gnu-debug.module" : {
+    "C.FlappyBird-x86_64-unknown-linux-gnu-debug.module" : {
       "executable" : "/usr/lib/swift/bin/swiftc",
-      "fileList" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/FlappyBird/.build/x86_64-unknown-linux-gnu/debug/HelloWorld.build/sources",
+      "fileList" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/FlappyBird/.build/x86_64-unknown-linux-gnu/debug/FlappyBird.build/sources",
       "importPath" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/FlappyBird/.build/x86_64-unknown-linux-gnu/debug/Modules",
       "inputs" : [
         {
@@ -48,17 +48,17 @@
         },
         {
           "kind" : "file",
-          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/FlappyBird/.build/x86_64-unknown-linux-gnu/debug/HelloWorld.build/sources"
+          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/FlappyBird/.build/x86_64-unknown-linux-gnu/debug/FlappyBird.build/sources"
         }
       ],
       "isLibrary" : false,
-      "moduleName" : "HelloWorld",
-      "moduleOutputPath" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/FlappyBird/.build/x86_64-unknown-linux-gnu/debug/Modules/HelloWorld.swiftmodule",
+      "moduleName" : "FlappyBird",
+      "moduleOutputPath" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/FlappyBird/.build/x86_64-unknown-linux-gnu/debug/Modules/FlappyBird.swiftmodule",
       "objects" : [
-        "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/FlappyBird/.build/x86_64-unknown-linux-gnu/debug/HelloWorld.build/main.swift.o",
-        "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/FlappyBird/.build/x86_64-unknown-linux-gnu/debug/HelloWorld.build/pipe.swift.o",
-        "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/FlappyBird/.build/x86_64-unknown-linux-gnu/debug/HelloWorld.build/pipeManager.swift.o",
-        "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/FlappyBird/.build/x86_64-unknown-linux-gnu/debug/HelloWorld.build/player.swift.o"
+        "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/FlappyBird/.build/x86_64-unknown-linux-gnu/debug/FlappyBird.build/main.swift.o",
+        "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/FlappyBird/.build/x86_64-unknown-linux-gnu/debug/FlappyBird.build/pipe.swift.o",
+        "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/FlappyBird/.build/x86_64-unknown-linux-gnu/debug/FlappyBird.build/pipeManager.swift.o",
+        "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/FlappyBird/.build/x86_64-unknown-linux-gnu/debug/FlappyBird.build/player.swift.o"
       ],
       "otherArguments" : [
         "-target",
@@ -79,7 +79,7 @@
         "-Xfrontend",
         "-entry-point-function-name",
         "-Xfrontend",
-        "HelloWorld_main",
+        "FlappyBird_main",
         "-color-diagnostics",
         "-swift-version",
         "5",
@@ -93,27 +93,27 @@
         "-Xcc",
         "-fno-omit-frame-pointer"
       ],
-      "outputFileMapPath" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/FlappyBird/.build/x86_64-unknown-linux-gnu/debug/HelloWorld.build/output-file-map.json",
+      "outputFileMapPath" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/FlappyBird/.build/x86_64-unknown-linux-gnu/debug/FlappyBird.build/output-file-map.json",
       "outputs" : [
         {
           "kind" : "file",
-          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/FlappyBird/.build/x86_64-unknown-linux-gnu/debug/HelloWorld.build/main.swift.o"
+          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/FlappyBird/.build/x86_64-unknown-linux-gnu/debug/FlappyBird.build/main.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/FlappyBird/.build/x86_64-unknown-linux-gnu/debug/HelloWorld.build/pipe.swift.o"
+          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/FlappyBird/.build/x86_64-unknown-linux-gnu/debug/FlappyBird.build/pipe.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/FlappyBird/.build/x86_64-unknown-linux-gnu/debug/HelloWorld.build/pipeManager.swift.o"
+          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/FlappyBird/.build/x86_64-unknown-linux-gnu/debug/FlappyBird.build/pipeManager.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/FlappyBird/.build/x86_64-unknown-linux-gnu/debug/HelloWorld.build/player.swift.o"
+          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/FlappyBird/.build/x86_64-unknown-linux-gnu/debug/FlappyBird.build/player.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/FlappyBird/.build/x86_64-unknown-linux-gnu/debug/Modules/HelloWorld.swiftmodule"
+          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/FlappyBird/.build/x86_64-unknown-linux-gnu/debug/Modules/FlappyBird.swiftmodule"
         }
       ],
       "prepareForIndexing" : false,
@@ -123,7 +123,7 @@
         "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/FlappyBird/Sources/pipeManager.swift",
         "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/FlappyBird/Sources/player.swift"
       ],
-      "tempsPath" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/FlappyBird/.build/x86_64-unknown-linux-gnu/debug/HelloWorld.build",
+      "tempsPath" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/FlappyBird/.build/x86_64-unknown-linux-gnu/debug/FlappyBird.build",
       "wholeModuleOptimization" : false
     },
     "C.Raylib-x86_64-unknown-linux-gnu-debug.module" : {
@@ -131,6 +131,10 @@
       "fileList" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/FlappyBird/.build/x86_64-unknown-linux-gnu/debug/Raylib.build/sources",
       "importPath" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/FlappyBird/.build/x86_64-unknown-linux-gnu/debug/Modules",
       "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/Raylib/Collision.swift"
+        },
         {
           "kind" : "file",
           "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/Raylib/Color.swift"
@@ -160,6 +164,7 @@
       "moduleName" : "Raylib",
       "moduleOutputPath" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/FlappyBird/.build/x86_64-unknown-linux-gnu/debug/Modules/Raylib.swiftmodule",
       "objects" : [
+        "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/FlappyBird/.build/x86_64-unknown-linux-gnu/debug/Raylib.build/Collision.swift.o",
         "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/FlappyBird/.build/x86_64-unknown-linux-gnu/debug/Raylib.build/Color.swift.o",
         "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/FlappyBird/.build/x86_64-unknown-linux-gnu/debug/Raylib.build/Key.swift.o",
         "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/FlappyBird/.build/x86_64-unknown-linux-gnu/debug/Raylib.build/Raylib.swift.o",
@@ -201,6 +206,10 @@
       "outputs" : [
         {
           "kind" : "file",
+          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/FlappyBird/.build/x86_64-unknown-linux-gnu/debug/Raylib.build/Collision.swift.o"
+        },
+        {
+          "kind" : "file",
           "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/FlappyBird/.build/x86_64-unknown-linux-gnu/debug/Raylib.build/Color.swift.o"
         },
         {
@@ -222,6 +231,7 @@
       ],
       "prepareForIndexing" : false,
       "sources" : [
+        "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/Raylib/Collision.swift",
         "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/Raylib/Color.swift",
         "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/Raylib/Key.swift",
         "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/Raylib/Raylib.swift",
@@ -235,10 +245,10 @@
 
   },
   "swiftTargetScanArgs" : {
-    "HelloWorld" : [
+    "FlappyBird" : [
       "/usr/lib/swift/bin/swiftc",
       "-module-name",
-      "HelloWorld",
+      "FlappyBird",
       "-package-name",
       "flappybird",
       "-incremental",
@@ -267,7 +277,7 @@
       "-Xfrontend",
       "-entry-point-function-name",
       "-Xfrontend",
-      "HelloWorld_main",
+      "FlappyBird_main",
       "-color-diagnostics",
       "-swift-version",
       "5",
@@ -291,6 +301,7 @@
       "raylib_swift",
       "-incremental",
       "-c",
+      "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/Raylib/Collision.swift",
       "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/Raylib/Color.swift",
       "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/Raylib/Key.swift",
       "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/Raylib/Raylib.swift",
@@ -332,7 +343,7 @@
     ]
   },
   "targetDependencyMap" : {
-    "HelloWorld" : [
+    "FlappyBird" : [
       "Raylib",
       "CRaylib"
     ],
@@ -350,7 +361,7 @@
     "enableAllTraits" : false
   },
   "writeCommands" : {
-    "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/FlappyBird/.build/x86_64-unknown-linux-gnu/debug/HelloWorld.build/sources" : {
+    "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/FlappyBird/.build/x86_64-unknown-linux-gnu/debug/FlappyBird.build/sources" : {
       "alwaysOutOfDate" : false,
       "inputs" : [
         {
@@ -374,9 +385,9 @@
           "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/FlappyBird/Sources/player.swift"
         }
       ],
-      "outputFilePath" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/FlappyBird/.build/x86_64-unknown-linux-gnu/debug/HelloWorld.build/sources"
+      "outputFilePath" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/FlappyBird/.build/x86_64-unknown-linux-gnu/debug/FlappyBird.build/sources"
     },
-    "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/FlappyBird/.build/x86_64-unknown-linux-gnu/debug/HelloWorld.product/Objects.LinkFileList" : {
+    "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/FlappyBird/.build/x86_64-unknown-linux-gnu/debug/FlappyBird.product/Objects.LinkFileList" : {
       "alwaysOutOfDate" : false,
       "inputs" : [
         {
@@ -385,23 +396,27 @@
         },
         {
           "kind" : "file",
-          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/FlappyBird/.build/x86_64-unknown-linux-gnu/debug/HelloWorld.build/HelloWorld.swiftmodule.o"
+          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/FlappyBird/.build/x86_64-unknown-linux-gnu/debug/FlappyBird.build/FlappyBird.swiftmodule.o"
         },
         {
           "kind" : "file",
-          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/FlappyBird/.build/x86_64-unknown-linux-gnu/debug/HelloWorld.build/main.swift.o"
+          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/FlappyBird/.build/x86_64-unknown-linux-gnu/debug/FlappyBird.build/main.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/FlappyBird/.build/x86_64-unknown-linux-gnu/debug/HelloWorld.build/pipe.swift.o"
+          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/FlappyBird/.build/x86_64-unknown-linux-gnu/debug/FlappyBird.build/pipe.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/FlappyBird/.build/x86_64-unknown-linux-gnu/debug/HelloWorld.build/pipeManager.swift.o"
+          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/FlappyBird/.build/x86_64-unknown-linux-gnu/debug/FlappyBird.build/pipeManager.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/FlappyBird/.build/x86_64-unknown-linux-gnu/debug/HelloWorld.build/player.swift.o"
+          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/FlappyBird/.build/x86_64-unknown-linux-gnu/debug/FlappyBird.build/player.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/FlappyBird/.build/x86_64-unknown-linux-gnu/debug/Raylib.build/Collision.swift.o"
         },
         {
           "kind" : "file",
@@ -424,7 +439,7 @@
           "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/FlappyBird/.build/x86_64-unknown-linux-gnu/debug/Raylib.build/Vector2.swift.o"
         }
       ],
-      "outputFilePath" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/FlappyBird/.build/x86_64-unknown-linux-gnu/debug/HelloWorld.product/Objects.LinkFileList"
+      "outputFilePath" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/FlappyBird/.build/x86_64-unknown-linux-gnu/debug/FlappyBird.product/Objects.LinkFileList"
     },
     "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/FlappyBird/.build/x86_64-unknown-linux-gnu/debug/Raylib.build/sources" : {
       "alwaysOutOfDate" : false,
@@ -432,6 +447,10 @@
         {
           "kind" : "virtual",
           "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/Raylib/Collision.swift"
         },
         {
           "kind" : "file",

@@ -2,6 +2,12 @@
   "": {
     "swift-dependencies": "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/FlappyBird/.build/x86_64-unknown-linux-gnu/debug/Raylib.build/master.swiftdeps"
   },
+  "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/Raylib/Collision.swift": {
+    "dependencies": "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/FlappyBird/.build/x86_64-unknown-linux-gnu/debug/Raylib.build/Collision.d",
+    "object": "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/FlappyBird/.build/x86_64-unknown-linux-gnu/debug/Raylib.build/Collision.swift.o",
+    "swiftmodule": "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/FlappyBird/.build/x86_64-unknown-linux-gnu/debug/Raylib.build/Collision~partial.swiftmodule",
+    "swift-dependencies": "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/FlappyBird/.build/x86_64-unknown-linux-gnu/debug/Raylib.build/Collision.swiftdeps"
+  },
   "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Sources/Raylib/Color.swift": {
     "dependencies": "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/FlappyBird/.build/x86_64-unknown-linux-gnu/debug/Raylib.build/Color.d",
     "object": "/home/adderscript/Dropbox/Alasdair Gray/Programming/Swift/raylib-swift/Examples/FlappyBird/.build/x86_64-unknown-linux-gnu/debug/Raylib.build/Color.swift.o",

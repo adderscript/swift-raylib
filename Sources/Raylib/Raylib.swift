@@ -55,7 +55,11 @@ public enum Raylib {
     }
 
     public static func drawRectangleV(_ pos: Vector2, _ size: Vector2, _ color: Color) {
-        CRaylib.DrawRectangle(Int32(pos.x), Int32(pos.y), Int32(size.x), Int32(size.y), color.cValue)
+        CRaylib.DrawRectangleV(pos.cValue, size.cValue, color.cValue)
+    }
+
+    public static func drawRectangleRec(_ rec: Rectangle, _ color: Color) {
+        CRaylib.DrawRectangleRec(rec.cValue, color.cValue)
     }
 
     public static func drawCircle(_ x: Float, _ y: Float, _ radius: Float, _ color: Color) {
@@ -63,7 +67,7 @@ public enum Raylib {
     }
 
     public static func drawCircleV(_ pos: Vector2, _ radius: Float, _ color: Color) {
-        CRaylib.DrawCircle(Int32(pos.x), Int32(pos.y), radius, color.cValue)
+        CRaylib.DrawCircleV(pos.cValue, radius, color.cValue)
     }
 
     // textures ----------------------------------------------------------------
@@ -76,11 +80,11 @@ public enum Raylib {
     }
 
     public static func drawTextureV(_ texture: Texture2D, _ pos: Vector2, _ tint: Color) {
-        CRaylib.DrawTexture(texture, Int32(pos.x), Int32(pos.y), tint.cValue)
+        CRaylib.DrawTextureV(texture, pos.cValue, tint.cValue)
     }
 
     public static func drawTextureEx(_ texture: Texture2D, _ pos: Vector2, _ rotation: Float, _ scale: Float, _ tint: Color) {
-        CRaylib.DrawTextureEx(texture, CRaylib.Vector2(x: pos.x, y: pos.y), rotation, scale, tint.cValue)
+        CRaylib.DrawTextureEx(texture, pos.cValue, rotation, scale, tint.cValue)
     }
 
     public static func drawTextureBetter(_ texture: Texture2D, _ pos: Vector2, _ rotation: Float, _ scale: Float, _ baseOrigin: Vector2, _ tint: Color) {
@@ -88,5 +92,10 @@ public enum Raylib {
         let destRect = CRaylib.Rectangle(x: pos.x, y: pos.y, width: Float(texture.width) * scale, height: Float(texture.height) * scale)
         let origin = CRaylib.Vector2(x: (Float(texture.width) * scale) * baseOrigin.x, y: (Float(texture.height) * scale) * baseOrigin.y)
         CRaylib.DrawTexturePro(texture, sourceRect, destRect, origin, rotation, tint.cValue)
+    }
+
+    // collision ------------------------------------------------------------------
+    public static func checkCollisionRecs(_ rec1: Rectangle, _ rec2: Rectangle) -> Bool {
+        return CRaylib.CheckCollisionRecs(rec1.cValue, rec2.cValue)
     }
 }

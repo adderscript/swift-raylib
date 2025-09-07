@@ -12,9 +12,12 @@ public struct PipeManager {
 
     mutating func update(_ dt: Float) {
         // update pipes
-        for i in stride(from: pipes.count - 1, through: 0, by: -1) {
+        for i in pipes.indices {
             pipes[i].update(dt)
         }
+
+        // delete all flagged as should remove
+        pipes.removeAll { $0.shouldRemove }
 
         // spawn pipe on timer
         if spawnTimer >= spawnDelaySeconds {
@@ -27,7 +30,7 @@ public struct PipeManager {
 
     func draw() {
         // draw pipes
-        for i in stride(from: pipes.count - 1, through: 0, by: -1) {
+        for i in pipes.indices {
             pipes[i].draw()
         }
     }
